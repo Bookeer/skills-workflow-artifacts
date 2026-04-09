@@ -25,9 +25,9 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Deploy to Production
-      run: |
-        echo: "Downloaded artifacts contents:"
-        tree wesite
-        echo  "Demo deply step: replace with your real deploy command"
+        run: |
+          echo: "Downloaded artifacts contents:"
+          tree wesite
+          echo  "Demo deply step: replace with your real deploy command"
       
     
